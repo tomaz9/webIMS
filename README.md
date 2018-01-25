@@ -1,1 +1,1 @@
-webIMS
+Web based inventory system
