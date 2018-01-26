@@ -4,6 +4,7 @@
     "author": "Tomaž Vesel",
     "dependencies": {
         "express": "latest",
-        "mysql": "latest"
+        "mysql": "latest",
+        "ejs": "latest"
     }
 }

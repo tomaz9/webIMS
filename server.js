@@ -1,10 +1,11 @@
 var express = require('express');
 var server  = express();
+server.set('view engine', 'ejs');
 
 var PORT = process.env.PORT || 3000;
 
 server.get('/', function(req, res) {
-    res.send("It's working!");
+    res.render('index', {});
 });
 
 server.listen(PORT, function() {
